@@ -546,6 +546,11 @@ EGLAPI EGLSurface EGLAPIENTRY eglCreatePlatformPixmapSurfaceEXT (EGLDisplay dpy,
 #define EGL_PLATFORM_DEVICE_EXT           0x313F
 #endif /* EGL_EXT_platform_device */
 
+
+#define EGL_PLATFORM_ANGLE_DEVICE_TYPE_ANGLE 0x3209
+#define EGL_PLATFORM_ANGLE_DEVICE_TYPE_WARP_ANGLE 0x320b
+
+
 #ifndef EGL_EXT_platform_wayland
 #define EGL_EXT_platform_wayland 1
 #define EGL_PLATFORM_WAYLAND_EXT          0x31D8
